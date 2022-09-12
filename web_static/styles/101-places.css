@@ -1,0 +1,144 @@
+.places {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.heading {
+  width: 100%;
+}
+
+.article-container {
+  width: 100%;
+  display: flex;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 390px;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #ff5a5f;
+  border-radius: 4px;
+}
+
+.article-top {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.place-title {
+  font-size: 30px;
+  margin: auto;
+}
+
+.price_by_night {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  border: 4px solid #ff5a5f;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+}
+
+.information {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.max_guest {
+  width: 100px;
+  background-image: url(../images/icon_group.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.number_rooms {
+  width: 100px;
+  background-image: url(../images/icon_bed.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.number_bathrooms {
+  width: 100px;
+  background-image: url(../images/icon_bath.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.user {
+  width: 100%;
+}
+
+.places > article > .amenities {
+  width: 100%;
+  margin-top: 40px;
+}
+
+.places > article > .amenities > h2 {
+  font-size: 16px;
+  border-bottom: 1px solid #dddddd;
+}
+
+.places > article > .amenities > ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.places > article > .amenities > ul > li {
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  align-items: center;
+  justify-content: center;
+}
+
+.places > article > .amenities > ul > li > svg {
+  fill: #707070;
+}
+
+.places > article > .reviews {
+  width: 100%;
+  margin-top: 40px;
+}
+
+.places > article > .reviews > h2 {
+  font-size: 16px;
+  border-bottom: 1px solid #dddddd;
+}
+
+.places > article > .reviews > ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.places > article > .reviews > ul > li > h3 {
+  font-size: 14px;
+}
+
+.places > article > .reviews > ul > li > p {
+  font-size: 12px;
+}
